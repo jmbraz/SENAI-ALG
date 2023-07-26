@@ -1,39 +1,39 @@
 Algoritmo "crime"
-// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Disciplina  :  [Linguagem e LÃ³gica de ProgramaÃ§Ã£o] 
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 26/07/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 
 resposta: caractere
 classificacao: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
-escreval("Interrogatório")
+escreval("InterrogatÃ³rio")
 escreval("              ")
-escreval("Telefonou para a vítima:")
+escreval("Telefonou para a vÃ­tima:")
 leia(resposta)
 escreval("              ")
 escreval("Esteve no local do crime?")
 leia(resposta)
 escreval("              ")
-escreval("Mora perto da vítima?")
+escreval("Mora perto da vÃ­tima?")
 leia(resposta)
 escreval("              ")
-escreval("Devia para a vítima?")
+escreval("Devia para a vÃ­tima?")
 leia(resposta)
 escreval("              ")
-escreval("Já trabalhou com a vítima?")
+escreval("JÃ¡ trabalhou com a vÃ­tima?")
 leia(resposta)
 
 se (resposta = "Sim") ou (resposta = "sim") entao
 classificacao <- classificacao + 1
 fimse
-se (resposta = "Não") ou (resposta = "não") entao
+se (resposta = "NÃ£o") ou (resposta = "nÃ£o") entao
 classificacao <- classificacao + 0
 fimse
 
@@ -43,7 +43,7 @@ escreval("Suspeita!")
 fimse
 se (classificacao = 3) ou (classificacao = 4) entao
 escreval("              ")
-escreval("Cúmplice!")
+escreval("CÃºmplice!")
 senao
 escreval("              ")
 escreval("Assasino!")
