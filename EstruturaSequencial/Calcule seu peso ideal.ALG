@@ -1,11 +1,11 @@
 Algoritmo "CalculeSeuPesoIdeal"
-// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Disciplina  :  [Linguagem e LÃ³gica de ProgramaÃ§Ã£o] 
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 26/07/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 
 sexo: caractere
 peso, altura: real
@@ -23,14 +23,14 @@ se (sexo = "masculino") ou (sexo = "Masculino") entao
 
 peso <- (altura * 72.7) - 58
 
-escreval("Seu peso ideal é" , peso, "kg")
+escreval("Seu peso ideal Ã©" , peso, "kg")
 fimse
 
 se (sexo = "feminino") ou (sexo = "Feminino") entao
 
 peso <- (altura * 62.1) - 44.7)
 
-escreval("Seu peso ideal é" , peso , "kg")
+escreval("Seu peso ideal Ã©" , peso , "kg")
 fimse
 
 
